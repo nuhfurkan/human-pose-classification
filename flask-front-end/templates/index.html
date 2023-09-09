@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Task Master</title>
+{% endblock %}
+
+{% block body %}
+<div class="content">
+    <video id="video-elem"> </video>
+    <canvas id = "screenshot-canvas" width = "600" height = "300"></canvas>
+    <button id = "snap" onclick = "snap()">Snapshot</button>
+    <button id = "snap" onclick = "startVideo()">Start video</button>
+    <p id="feedback"></p>    
+</div>
+{% endblock %}
