@@ -9,6 +9,7 @@ https://developers.google.com/mediapipe/solutions/vision/pose_landmarker/index
 ## Functions Used in the Project
 ### Data Processing
 1. normalize_dataset
+
    Params:
    
    > dataSubSet -> pandas.DataFrame
