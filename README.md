@@ -176,6 +176,8 @@ mpprocess file contains the class of MPObject. MPObject class has the following 
    
    Return:
 
+   > NaN
+
    This method normalizes the data read through MediaPipe functions and other preprocessing functions. If prt is "True", normalized landmarks will be extracted to the file "normalized_landmarks.csv".
 
 ## Notes
