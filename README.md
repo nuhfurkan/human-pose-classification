@@ -178,4 +178,7 @@ mpprocess file contains the class of MPObject. MPObject class has the following 
 
    This method normalizes the data read through MediaPipe functions and other preprocessing functions. If prt is "True", normalized landmarks will be extracted to the file "normalized_landmarks.csv".
 
+## Notes
+
+More data can be found in the files given above in the NNGA Project_ A Pose Classification.
 
