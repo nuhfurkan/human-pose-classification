@@ -20,7 +20,7 @@ https://developers.google.com/mediapipe/solutions/vision/pose_landmarker/index
    
    This function receives a pandas.DataFrame and return a processed pandas.DataFrame. Function normalises the data by dividing all the values into the maximum entry in the parameter DataFrame. It also substracts the minimum value from all the entries in the DataFrame. So all the values would be reframed into values between 0 to 1.
 
-3. normalize_dataframe
+2. normalize_dataframe
 
    Params:
 
@@ -34,7 +34,7 @@ https://developers.google.com/mediapipe/solutions/vision/pose_landmarker/index
    
    This function send several calls to the normalize_dataset function to normalize X, Y and Z correspondingly. If extract is "True", the return values extracted to a file named as "normalized_landmarks.csv".
    
-5. train_modal
+3. train_modal
 
    Params
 
@@ -48,7 +48,7 @@ https://developers.google.com/mediapipe/solutions/vision/pose_landmarker/index
    Function also saves the confusion matrix to a file "confusion_matrix.png".
    The test train split of data 0.07.
 
-7. train_knn_modal
+4. train_knn_modal
 
    Params:
 
@@ -62,7 +62,7 @@ https://developers.google.com/mediapipe/solutions/vision/pose_landmarker/index
    Later, function prints the accuracy score and export the results of predictions to file "knn_accuracy.csv".
    The test train split of data 0.1.
 
-9. pickle_modal
+5. pickle_modal
 
    Params:
 
