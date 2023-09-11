@@ -10,9 +10,9 @@ https://developers.google.com/mediapipe/solutions/vision/pose_landmarker/index
 ### Data Processing
 1. normalize_dataset
    Params:
-   - dataSubSet -> pandas.DataFrame
+   > dataSubSet -> pandas.DataFrame
    Return:
-   - pandas.DataFrame
+   > pandas.DataFrame
    This function receives a pandas.DataFrame and return a processed pandas.DataFrame. Function normalises the data by dividing all the values into the maximum entry in the parameter DataFrame. It also substracts the minimum value from all the entries in the DataFrame. So all the values would be reframed into values between 0 to 1.
 3. normalize_dataframe
    Params:
