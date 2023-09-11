@@ -180,5 +180,7 @@ mpprocess file contains the class of MPObject. MPObject class has the following 
 
 ## Notes
 
-More data can be found in the files given above in the NNGA Project_ A Pose Classification.
+More data can be found in the files given above in the "NNGA Project_ A Pose Classifier.pdf".
+
+Also some relevant links to the project can be found in the "notes.txt" file.
 
