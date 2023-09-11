@@ -87,7 +87,7 @@ mpprocess file contains the class of MPObject. MPObject class has the following 
 
    Method initialises the MPObject objects. It sets the MediaPipe pose_landmarker_heavy.task options and loads the pickled MPClassifier modal.
 
-3. runMLPC
+2. runMLPC
 
    Params:
 
@@ -101,7 +101,7 @@ mpprocess file contains the class of MPObject. MPObject class has the following 
 
    This method returns the prediction class for a single entry of data. ptr is depreciated.
 
-5. fetchResults
+3. fetchResults
 
    Params:
 
@@ -113,7 +113,7 @@ mpprocess file contains the class of MPObject. MPObject class has the following 
    
    This method runs all the necessary functions to classify a pose from an image whose location stated in the parameter, "iamgelocation".
 
-7. draw_landmarks_on_image
+4. draw_landmarks_on_image
 
    Params:
    
@@ -127,7 +127,7 @@ mpprocess file contains the class of MPObject. MPObject class has the following 
 
    This medhod draws the landmarks to the image and shows. It gets the image and landmarks.
 
-9. retrieveLandmarks
+5. retrieveLandmarks
 
    Params:
 
@@ -141,7 +141,7 @@ mpprocess file contains the class of MPObject. MPObject class has the following 
 
    This methods calls the relevant MediaPipe functions to extract the landmarks and returns the landmarks.
 
-11. putDataInFrame
+6. putDataInFrame
 
    Params:
 
@@ -154,7 +154,7 @@ mpprocess file contains the class of MPObject. MPObject class has the following 
    This methods receives a MediaPipe pose_world_landmarks object and converts it to pandas.DataFrame.
 
 
-12. normalize_dataset
+7. normalize_dataset
 
    Params:
 
@@ -166,7 +166,7 @@ mpprocess file contains the class of MPObject. MPObject class has the following 
 
    This method normalizes the data entered by dividing it to the maximum entry value and also substracts the minimum value from all entries.
 
-13. normalizeData
+8. normalizeData
 
    Params:
 
