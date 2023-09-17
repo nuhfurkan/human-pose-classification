@@ -4,6 +4,7 @@ A human pose classification ML Modal and web interface with a server.
 ## Installing dependencies
 In order to install dependencies first create your own virtual environment using following line of code
 > python3 -m venv #YOUR-ENV-NAME#
+
 Then activate your virtual environment
 
 Then type following command
