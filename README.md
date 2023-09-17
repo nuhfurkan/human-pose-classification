@@ -1,6 +1,14 @@
 # Human Pose Classification
 A human pose classification ML Modal and web interface with a server.
 
+## Installing dependencies
+In order to install dependencies first create your own virtual environment using following line of code
+> python3 -m venv #YOUR-ENV-NAME#
+Then activate your virtual environment
+
+Then type following command
+> python3 -m pip install -r requirements.txt
+
 Note:
 You should add mediapipe heavytas to the "flask-ront-end/serverfiles" with the following name "pose_landmarker_heavy.task".
 You can find the heavy task in the link below.
