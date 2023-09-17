@@ -9,10 +9,14 @@ Then activate your virtual environment
 Then type following command
 > python3 -m pip install -r requirements.txt
 
+<br>
+
 Note:
 You should add mediapipe heavytas to the "flask-ront-end/serverfiles" with the following name "pose_landmarker_heavy.task".
 You can find the heavy task in the link below.
 https://developers.google.com/mediapipe/solutions/vision/pose_landmarker/index
+
+<br>
 
 ## Functions Used in the Project
 ### Data Processing
